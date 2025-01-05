@@ -64,3 +64,35 @@ while True:
         break
     else:
         print("\nInvalid choice. Please try again.")
+
+
+
+
+"""
+Create compare.py
+Select the device for computation:
+1. CPU
+2. GPU (MPS)
+3. Exit
+Enter your choice: 1
+
+Running on CPU...
+Results for cpu:
+Total time: 64.120488 seconds
+Average time per multiplication: 0.641205 seconds
+Multiplications per second: 1.56
+
+Select the device for computation:
+1. CPU
+2. GPU (MPS)
+3. Exit
+Enter your choice: 2
+
+Running on GPU (MPS)...
+Warming up GPU...
+Results for mps:
+Total time: 23.473543 seconds
+Average time per multiplication: 0.234735 seconds
+Multiplications per second: 4.26
+
+"""
